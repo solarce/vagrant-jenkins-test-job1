@@ -11,7 +11,7 @@ Vagrant::Config.run do |config|
 
   config.vm.box = "precise32"
   config.vm.box_url = "http://files.vagrantup.com/precise32.box"
-  config.vm.customize ["modifyvm", :id, "--memory", CONF['memory']]
+  #config.vm.customize ["modifyvm", :id, "--memory", CONF['memory']]
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
